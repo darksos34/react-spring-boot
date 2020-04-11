@@ -40,6 +40,11 @@ To create a pre-generated backend, click: <strong>GENERATE</strong><br /><br />
 A ZIP file is downloaded on your hard-drive. Open the ZIP file and extract the project folder.<br />
 Open the project folder in your favorite IDE.<br />
 <br />
-*In this example the files are shown with Visual Studio Code.*
+<br />
+### POM.xml
+A Project Object Model or POM is the fundamental unit of work in Maven.<br />
+It is an XML file that contains information about the project and configuration details used by Maven to build the project.<br />
+<br />
+*In this example the files are shown with Visual Studio Code.*<br />
 
 ![Spring Boot generated project](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/spring-boot-generated-project.JPG)
