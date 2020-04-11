@@ -32,7 +32,7 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Java:** version ```8```<br />
 * **Dependencies:** ```Spring Web```<br />
 <br />
-To create a pre-generated backend, click: **Generate**<br /><br />
+To create a pre-generated backend, click: <strong>GENERATE<strong><br /><br />
 
 
 ![Spring Boot Dependency Selection](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/spring-boot-dependency-selection.jpg)
