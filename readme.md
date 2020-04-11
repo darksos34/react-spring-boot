@@ -39,6 +39,7 @@ To create a pre-generated backend, click: <strong>GENERATE</strong><br /><br />
 <br /><br />
 A ZIP file is downloaded on your hard-drive. Open the ZIP file and extract the project folder.<br />
 Open the project folder in your favorite IDE.<br />
+<br />
 ### POM.xml
 A Project Object Model or POM is the fundamental unit of work in Maven.<br />
 It is an XML file that contains information about the project and configuration details used by Maven to build the project.<br />
