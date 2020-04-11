@@ -31,7 +31,7 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Packaging:** ```JAR```<br />
 * **Java:** version ```8```<br />
 * **Dependencies:** ```Spring Web```<br />
-<br />
+
 To create a pre-generated backend, click: <strong>GENERATE<strong><br /><br />
 
 
