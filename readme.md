@@ -30,10 +30,9 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Description:** this is a short description about your project. For this project we will use: ```React and Spring Boot Tutorial```<br />
 * **Packaging:** ```JAR```<br />
 * **Java:** version ```8```<br />
-<br />
 * **Dependencies:** ```Spring Web```<br />
 <br />
-And finally click on: ```Generate```<br />
+To create a pre-generated backend, click: ```Generate```<br /><br />
 
 
 ![Spring Boot Dependency Selection](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/spring-boot-dependency-selection.jpg)
