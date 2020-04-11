@@ -45,7 +45,7 @@ A Project Object Model or POM is the fundamental unit of work in Maven.<br />
 It is an XML file that contains information about the project and configuration details used by Maven to build the project.<br />
 <br />
 Your POM.xml should contain following data (depending on your choosen Spring Boot Group, Artifact and other assigned values)
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
