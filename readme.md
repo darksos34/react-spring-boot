@@ -32,14 +32,14 @@ In your browser, open: [https://start.spring.io](https://start.spring.io)<br />
 * **Java:** version ```8```<br />
 * **Dependencies:** ```Spring Web```<br />
 
-To create a pre-generated backend, click: <strong>GENERATE<strong><br /><br />
+To create a pre-generated backend, click: <strong>GENERATE</strong><br /><br />
 
 
 ![Spring Boot Dependency Selection](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/spring-boot-dependency-selection.jpg)
-<br />
+<br /><br />
 A ZIP file is downloaded on your hard-drive. Open the ZIP file and extract the project folder.<br />
 Open the project folder in your favorite IDE.<br />
 <br />
 *In this example the files are shown with Visual Studio Code.*
 
-![Spring Boot generated project](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/spring-boot-generated-project.jpg)
+![Spring Boot generated project](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/spring-boot-generated-project.JPG)
