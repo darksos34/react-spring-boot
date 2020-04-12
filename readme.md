@@ -134,9 +134,8 @@ Great work! Now let's run the application in the terminal.<br />
 
 ### Run the Application
 To start the application, open the command terminal and execute following task: ```mvn spring-boot:run```<br />
-<br />
 
-Once the application is started, let's run the service (in a separate command terminal), by executing the following task (shown with its output):
-```curl http://localhost:8080/hello```
+Once the application is started, let's run the service (in a separate command terminal), by executing the following task (shown with its output):<br />
+```curl http://localhost:8080/hello```<br />
 ```Greetings from CodeBean!```
 <br />
