@@ -97,12 +97,12 @@ The following listing shows the ```POM.xml``` file that is created when you choo
 </project>
 ```
 <br />
-<h3>Controller</h3>
+### Controller
 Let's add a service to make the application output some data.<br />
 To do so, add a controller named: ```HelloController.java```<br />
 <br />
-Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java
-<code>
+Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
+```java
 package nl.codebean.reactspringboot;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -116,7 +116,7 @@ public class HelloController {
     return "Greetings from CodeBean!";
   }
 }
-</code>
-<code>@RestController</code>: this is a Spring Boot annotation which marks the class as a Controller;
-<code>@RequestMapping</code>: this is a Spring Boot annotation which maps <code>"/hello"</code> to the <code>hello()</code> method;
-When invoked from a browser or by using curl on the command line, the method returns text only. That is because <code>@RestController</code> combines <code>@Controller</code> and <code>@ResponseBody</code>, two annotations that results in web requests returning data rather than a view.
+```<br />
+```@RestController```: this is a Spring Boot annotation which marks the class as a Controller;
+```@RequestMapping```: this is a Spring Boot annotation which maps ```"/hello"``` to the ```hello()``` method;
+When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.
