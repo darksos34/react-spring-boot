@@ -1,7 +1,7 @@
 # React and Spring Boot First Setup
 
 *Created on: 11-04-2019*<br />
-*Last updated on: 11-04-2019*
+*Last updated on: 12-04-2019*
 
 **Contributors:**<br />
 Jeffrey Spaan (Full Stack Developer @ CodeBean)<br />
@@ -9,6 +9,7 @@ Jordy Hamwijk (Full Stack Developer @ CodeBean)<br />
 <br />
 Welcome developer. This is the first tutorial in developing your first Web Application with <strong>React and Spring Boot.</strong><br />
 Moving forward, we will use this repository as starting point for any further repositories which we will post here on GitHub.<br />
+In this tutorial we will cover the basics and setup a React frontend with a Spring Boot backend.
 <br />
 
 ### What is React?
@@ -104,7 +105,7 @@ The following listing shows the ```POM.xml``` file that is created when you choo
 Let's add a service to make the application output some data.<br />
 To do so, add a controller named: ```HelloController.java```<br />
 
-Save the Controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
+Save the Controller in ```src/main/java/nl/codebean/reactspringboot/HelloController.java```<br />
 
 ```java
 package nl.codebean.reactspringboot;
@@ -126,4 +127,10 @@ public class HelloController {
 <br />
 
 ```@RequestMapping```: This is a <strong>Spring Boot</strong> annotation which maps ```"/hello"``` to the ```hello()``` method;
-When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.
+When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.<br />
+<br />
+Great work! Now let's run the application in the terminal.<br />
+
+### Run the Application
+Open the terminal and perform following command to start the application:
+```mvnw spring-boot:run```
