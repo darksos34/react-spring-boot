@@ -210,7 +210,7 @@ The frontend is running at port **3000** ```http://localhost:3000```<br />
 At this point both ports are running alongside eachother without any connection or ability to fetch data.<br />
 
 This is solved by adding a proxy to the ```package.json``` file which allows port ```3000``` to fetch data from port ```8080```.<br />
-```json
+```
 "scripts": { ... },
 "proxy": "http://localhost:8080",
 ```
