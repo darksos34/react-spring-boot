@@ -98,7 +98,6 @@ The following listing shows the ```POM.xml``` file that is created when you choo
 
 </project>
 ```
-<br />
 
 ### Controller
 Let's add a service to make the application output some data.<br />
@@ -121,7 +120,6 @@ public class HelloController {
   }
 }
 ```
-<br />
 
 ```@RestController```: This is a Spring Boot annotation which marks the class as a Controller;
 <br />
