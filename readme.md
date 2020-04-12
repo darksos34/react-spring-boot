@@ -130,7 +130,13 @@ public class HelloController {
 When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.<br />
 <br />
 Great work! Now let's run the application in the terminal.<br />
+<br />
 
 ### Run the Application
-Open the terminal and perform following command to start the application:
-```mvnw spring-boot:run```
+To start the application, open the command terminal and execute following task: ```mvn spring-boot:run```<br />
+<br />
+
+Once the application is started, let's run the service (in a separate command terminal), by executing the following task (shown with its output):
+```curl http://localhost:8080/hello```
+```Greetings from CodeBean!```
+<br />
