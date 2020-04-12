@@ -207,7 +207,7 @@ Our next task is to show the API data from the backend *(server-side)* in the fr
 The backend is running at port **8080** ```http://localhost:8080```<br />
 The frontend is running at port **3000** ```http://localhost:3000```<br />
 <br />
-Both ports are now running alongside eachother without any interconnectivity. To allow this connection, we require to setup a proxy which allows data transfer between these two ports.<br />
+Both ports are now running alongside eachother without any interconnectivity. To allow read and write access from the frontend port to the backend port, we require to setup a proxy which allows data transfer.<br />
 
 This is solved by adding a ```proxy``` field to your ```frontend/package.json``` file which allows port ```3000``` to transfer data from/to port ```8080```.<br />
 ```json
@@ -254,3 +254,10 @@ Your ```frontend/package.json``` file should now look something like this:
 }
 ```
 To learn more about proxying API requests, see Create React App's [documentation](https://create-react-app.dev/docs/proxying-api-requests-in-development/#docsNav).<br />
+<br />
+Let's test if we are now able to access the data from the frontend also.
+Open a new terminal window and type following command (shown with its output):
+```console
+> curl http://localhost:3000/api/hello
+Greetings from CodeBean!
+```
