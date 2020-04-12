@@ -116,7 +116,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-  @RequestMapping("/hello")
+  @RequestMapping("/api/hello")
   public String hello() {
     return "Greetings from CodeBean!";
   }
@@ -126,7 +126,7 @@ public class HelloController {
 ```@RestController```: This is a <strong>Spring Boot</strong> annotation which marks the class as a Controller;
 <br />
 
-```@RequestMapping```: This is a <strong>Spring Boot</strong> annotation which maps ```"/hello"``` to the ```hello()``` method;
+```@RequestMapping```: This is a <strong>Spring Boot</strong> annotation which maps ```"/api/hello"``` to the ```hello()``` method;
 When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.<br />
 <br />
 Now let's run the application in the terminal.<br />
@@ -152,7 +152,7 @@ To start the application, open the command terminal and execute following task (
 Once the application is started, let's run the service (in a separate command terminal).
 Execute the following task (shown with its output):<br />
 ```console
-> curl http://localhost:8080/hello
+> curl http://localhost:8080/api/hello
 Greetings from CodeBean!
 ```
 
@@ -203,15 +203,48 @@ It should look something like this:
 
 ## View REST Services from Spring Boot in the React frontend
 
-The next task is to show the data from the backend (server-side) in the frontend (client-side).<br />
+Our next task is to show the API data from the backend *(server-side)* in the frontend *(client-side)*.<br />
 The backend is running at port **8080** ```http://localhost:8080```<br />
 The frontend is running at port **3000** ```http://localhost:3000```<br />
 <br />
-At this point both ports are running alongside eachother without any connection or ability to fetch data.<br />
+Both ports are now running alongside eachother without any interconnectivity. To allow this connection, we require to setup a proxy which allows data transfer between these two ports.<br />
 
-This is solved by adding a proxy to the ```frontend/package.json``` file which allows port ```3000``` to fetch data from port ```8080```.<br />
-```
-"scripts": { ... },
-"proxy": "http://localhost:8080",
+This is solved by adding a proxy to the ```frontend/package.json``` file which allows port ```3000``` to transfer data from/to port ```8080```.<br />
+```json
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:8080",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
 ```
 To learn more about proxying API requests, see Create React App's [documentation](https://create-react-app.dev/docs/proxying-api-requests-in-development/#docsNav).<br />
