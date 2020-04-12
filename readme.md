@@ -103,9 +103,8 @@ The following listing shows the ```POM.xml``` file that is created when you choo
 ### Controller
 Let's add a service to make the application output some data.<br />
 To do so, add a controller named: ```HelloController.java```<br />
-<br />
 
-Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
+Save the Controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
 
 ```java
 package nl.codebean.reactspringboot;
@@ -124,14 +123,8 @@ public class HelloController {
 ```
 <br />
 
-```java
-@RestController
-```
-This is a Spring Boot annotation which marks the class as a Controller;
+```@RestController```: This is a Spring Boot annotation which marks the class as a Controller;
 <br />
 
-```java
-@RequestMapping
-```
-This is a Spring Boot annotation which maps ```"/hello"``` to the ```hello()``` method;
+```@RequestMapping```: This is a Spring Boot annotation which maps ```"/hello"``` to the ```hello()``` method;
 When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.
