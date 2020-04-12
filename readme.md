@@ -102,7 +102,7 @@ Let's add a service to make the application output some data.<br />
 To do so, add a controller named: ```java HelloController.java ```<br />
 <br />
 Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
-```java
+    ```java
     package nl.codebean.reactspringboot;
 
     import org.springframework.web.bind.annotation.RequestMapping;
@@ -116,7 +116,7 @@ Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloContr
         return "Greetings from CodeBean!";
       }
     }
-```<br />
+    ```<br />
 ```java
 @RestController
 ```
