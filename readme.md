@@ -200,7 +200,7 @@ You can now view frontend in the browser.
 Open your browser and go to http://localhost:3000 to view the <strong>React</strong> application.<br />
 It should look something like this:
 
-![React created browser](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/react-created-browser.JPG)
+![React created browser](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/react-created-browser.JPG)<br />
 <br />
 
 ### View REST Services from Spring Boot in the React frontend
