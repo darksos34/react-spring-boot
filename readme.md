@@ -97,10 +97,12 @@ The following listing shows the ```POM.xml``` file that is created when you choo
 </project>
 ```
 <br />
+
 ###Controller
 Let's add a service to make the application output some data.<br />
 To do so, add a controller named: ```HelloController.java```<br />
 <br />
+
 Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
 
 ```java
