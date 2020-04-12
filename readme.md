@@ -122,8 +122,8 @@ public class HelloController {
 }
 ```
 
-```@RestController```: This is a Spring Boot annotation which marks the class as a Controller;
+```@RestController```: This is a <strong>Spring Boot</strong> annotation which marks the class as a Controller;
 <br />
 
-```@RequestMapping```: This is a Spring Boot annotation which maps ```"/hello"``` to the ```hello()``` method;
+```@RequestMapping```: This is a <strong>Spring Boot</strong> annotation which maps ```"/hello"``` to the ```hello()``` method;
 When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.
