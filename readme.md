@@ -201,7 +201,7 @@ It should look something like this:
 ![React created browser](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/react-created-browser.JPG)<br />
 <br />
 
-### View REST Services from Spring Boot in the React frontend
+## View REST Services from Spring Boot in the React frontend
 
 The next task is to show the data from the backend (server-side) in the frontend (client-side).<br />
 The backend is running at port **8080** ```http://localhost:8080```<br />
@@ -209,7 +209,7 @@ The frontend is running at port **3000** ```http://localhost:3000```<br />
 <br />
 At this point both ports are running alongside eachother without any connection or ability to fetch data.<br />
 
-This is solved by adding a proxy to the ```package.json``` file which allows port ```3000``` to fetch data from port ```8080```.<br />
+This is solved by adding a proxy to the ```frontend/package.json``` file which allows port ```3000``` to fetch data from port ```8080```.<br />
 ```
 "scripts": { ... },
 "proxy": "http://localhost:8080",
