@@ -133,7 +133,20 @@ Now let's run the application in the terminal.<br />
 <br />
 
 ### Run the Application
-To start the application, open the command terminal and execute following task: ```mvn spring-boot:run```<br />
+To start the application, open the command terminal and execute following task:<br />
+
+```console
+mvn spring-boot:run
+
+2020-04-12 10:42:20.303  INFO 2232 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-12 10:42:20.311  INFO 2232 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-12 10:42:20.312  INFO 2232 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-12 10:42:20.378  INFO 2232 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-12 10:42:20.378  INFO 2232 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 896 ms
+2020-04-12 10:42:20.503  INFO 2232 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-12 10:42:20.610  INFO 2232 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-12 10:42:20.612  INFO 2232 --- [           main] n.c.r.ReactSpringBootApplication         : Started ReactSpringBootApplication in 1.444 seconds (JVM running for 1.78)
+```
 
 Once the application is started, let's run the service (in a separate command terminal).
 Execute the following task (shown with its output):<br />
