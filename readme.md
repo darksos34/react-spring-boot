@@ -103,27 +103,31 @@ To do so, add a controller named: ```HelloController.java```<br />
 <br />
 Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
 
-    package nl.codebean.reactspringboot;
+```java
+package nl.codebean.reactspringboot;
 
-    import org.springframework.web.bind.annotation.RequestMapping;
-    import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-    @RestController
-    public class HelloController {
+@RestController
+public class HelloController {
 
-      @RequestMapping("/hello")
-      public String hello() {
-        return "Greetings from CodeBean!";
-      }
-    }
+  @RequestMapping("/hello")
+  public String hello() {
+    return "Greetings from CodeBean!";
+  }
+}
+```
+<br />
 
 ```java
 @RestController
 ```
 This is a Spring Boot annotation which marks the class as a Controller;
+<br />
 
 ```java
 @RequestMapping
 ```
-This is a Spring Boot annotation which maps ``` "/hello" ``` to the ```java hello() ``` method;
-When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```java @RestController ``` combines ```java @Controller ``` and ```java @ResponseBody ```, two annotations that results in web requests returning data rather than a view.
+This is a Spring Boot annotation which maps ```"/hello"``` to the ```hello()``` method;
+When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.
