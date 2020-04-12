@@ -141,9 +141,9 @@ Execute the following task (shown with its output):<br />
 curl http://localhost:8080/hello
 Greetings from CodeBean!
 ```
-<br />
+
 Great work! The Spring Boot REST service is up and running.<br />
 Let's continue with getting the backend data to the frontend.<br />
-
+<br />
 ### React frontend
 
