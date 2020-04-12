@@ -10,12 +10,12 @@ Jordy Hamwijk (Full Stack Developer @ CodeBean)<br />
 Welcome developer. This is the first tutorial in developing your first Web Application with <strong>React and Spring Boot.</strong><br />
 Moving forward, we will use this repository as starting point for any further repositories which we will post here on GitHub.<br />
 <br />
-### What is React?
+###What is React?
 <strong>React</strong> is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications.<br />
 It's used for handling the view layer for web and mobile apps. <strong>React</strong> also allows us to create reusable UI components.<br />
 The use of UI components eases the development and reduces the development time of your application.<br />
 <br />
-### What is Spring Boot?
+###What is Spring Boot?
 <strong>Spring Boot</strong> is a Java-Based framework used to create a micro service.<br />
 Configuring the backend of your application is simplified with the use of Spring Boot dependencies which enables you to simply select the required dependencies to quickly setup the backend of your application.<br />
 Speaking of which, let's start with creating our backend right away.<br />
@@ -97,12 +97,12 @@ The following listing shows the ```POM.xml``` file that is created when you choo
 </project>
 ```
 <br />
-### Controller
+###Controller
 Let's add a service to make the application output some data.<br />
-To do so, add a controller named: ```java HelloController.java ```<br />
+To do so, add a controller named: ```HelloController.java```<br />
 <br />
 Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
-    ```java
+
     package nl.codebean.reactspringboot;
 
     import org.springframework.web.bind.annotation.RequestMapping;
@@ -116,7 +116,7 @@ Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloContr
         return "Greetings from CodeBean!";
       }
     }
-    ```<br />
+
 ```java
 @RestController
 ```
