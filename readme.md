@@ -209,7 +209,7 @@ The frontend is running at port **3000** ```http://localhost:3000```<br />
 <br />
 Both ports are now running alongside eachother without any interconnectivity. To allow this connection, we require to setup a proxy which allows data transfer between these two ports.<br />
 
-This is solved by adding a proxy field to your ```frontend/package.json``` file which allows port ```3000``` to transfer data from/to port ```8080```.<br />
+This is solved by adding a ```proxy``` field to your ```frontend/package.json``` file which allows port ```3000``` to transfer data from/to port ```8080```.<br />
 ```json
 "proxy": "http://localhost:8080",
 ```
