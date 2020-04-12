@@ -138,7 +138,7 @@ To start the application, open the command terminal and execute following task: 
 Once the application is started, let's run the service (in a separate command terminal), by executing the following task (shown with its output):<br />
 
 ```console
-curl http://localhost:8080/hello<br />
+curl http://localhost:8080/hello
 Greetings from CodeBean!
 ```
 
