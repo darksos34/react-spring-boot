@@ -196,3 +196,8 @@ You can now view frontend in the browser.
   Local:            http://localhost:3000
 
 ```
+
+Open your browser and go to http://localhost:3000 to view the <strong>React</strong> application.
+It should look something like this:
+
+![React created browser](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/react-created-browser.jpg)
