@@ -103,20 +103,20 @@ To do so, add a controller named: ```java HelloController.java ```<br />
 <br />
 Save the controller in ```src/main/java/nl/codebean/react-spring-boot/HelloController.java```<br />
 ```java
-package nl.codebean.reactspringboot;
+    package nl.codebean.reactspringboot;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+    import org.springframework.web.bind.annotation.RequestMapping;
+    import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-public class HelloController {
+    @RestController
+    public class HelloController {
 
-  @RequestMapping("/hello")
-  public String hello() {
-    return "Greetings from CodeBean!";
-  }
-}
-```<br />.
+      @RequestMapping("/hello")
+      public String hello() {
+        return "Greetings from CodeBean!";
+      }
+    }
+```<br />
 ```java
 @RestController
 ```
