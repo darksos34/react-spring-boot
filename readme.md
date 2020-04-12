@@ -129,17 +129,21 @@ public class HelloController {
 ```@RequestMapping```: This is a <strong>Spring Boot</strong> annotation which maps ```"/hello"``` to the ```hello()``` method;
 When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.<br />
 <br />
-Great work! Now let's run the application in the terminal.<br />
+Now let's run the application in the terminal.<br />
 <br />
 
 ### Run the Application
 To start the application, open the command terminal and execute following task: ```mvn spring-boot:run```<br />
 
-Once the application is started, let's run the service (in a separate command terminal), by executing the following task (shown with its output):<br />
-
+Once the application is started, let's run the service (in a separate command terminal).
+Execute the following task (shown with its output):<br />
 ```console
 curl http://localhost:8080/hello
 Greetings from CodeBean!
 ```
-
 <br />
+Great work! The Spring Boot REST service is up and running.<br />
+Let's continue with getting the backend data to the frontend.<br />
+
+### React frontend
+
