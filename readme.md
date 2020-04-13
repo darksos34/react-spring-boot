@@ -274,7 +274,7 @@ In the ```components``` folder, add a file named ```Greet.js```<br />
 *According the React best practices, the components folder will contain all files which act as a component.*<br />
 *According the React best practices, the component names will start with a capital letter.*<br />
 
-Add following code in the ```Greet.js``` file.<br />
+Add the following code to your ```Greet.js``` file.<br />
 
 
 ```jsx
@@ -303,4 +303,40 @@ const Greet = () => {
 }
 
 export default Greet;
+```
+
+Now open your ```App.js``` file, located in the ```/frontend/src``` folder.<br />
+Here we will import the ```Greet.js``` component by adding ```import Greet from './components/Greet';``` and ```<Greet />``` to the ```App.js``` file.<br />
+Your code should look like this:
+
+```jsx
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+import Greet from './components/Greet';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <h4><Greet /></h4>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
 ```
