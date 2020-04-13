@@ -358,7 +358,7 @@ Your **React** frontend should now display the text from your backend API.
 Your React frontend is now connected with your Spring Boot backend which enables your application to fetch and write data from/to your server.<br />
 
 I hope you enjoyed following this tutorial, don't forget to give this repository a star.<br />
-Follow CodeBean University on GitHub and get updated with new interesting tutorials.<br />
+Follow CodeBean University on GitHub and get updated with new interesting tutorials.<br /><br />
 
 ### Next tutorial
 
