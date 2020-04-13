@@ -273,7 +273,6 @@ In the ```components``` folder, add a file named ```Greet.js```<br />
 
 *According the React best practices, the components folder will contain all files which act as a component.*<br />
 *According the React best practices, the component names will start with a capital letter.*<br />
-<br />
 
 Add following code in the ```Greet.js``` file.<br />
 
