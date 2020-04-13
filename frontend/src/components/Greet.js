@@ -15,7 +15,7 @@ const Greet = () => {
   
   return (
   <div>
-    <p>{greet}</p>
+    <h4>{greet}</h4>
   </div>
   )
 }
