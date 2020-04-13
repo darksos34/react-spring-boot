@@ -355,11 +355,12 @@ Your **React** frontend should now display the text from your backend API.
 ![React show API text](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/react-shows-api-text.JPG)
 
 ## Congratulations!
-Your React frontend is now connected with your Spring Boot backend which enables your application to fetch and write data from/to your server.
+Your React frontend is now connected with your Spring Boot backend which enables your application to fetch and write data from/to your server.<br />
 
-### Upcoming tutorials
-In the upcoming tutorials we will explore the possibility to run the full application on just one (assigned) port, how to make a fully operational RESTful application including the database connection, security implementation and settings and many more topics.
+I hope you enjoyed following this tutorial, don't forget to give this repository a star.<br />
+Follow CodeBean University on GitHub and get updated with new interesting tutorials.
 
-<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+### Next tutorial
 
-<iframe src="https://ghbtns.com/github-btn.html?user=twbs&repo=bootstrap&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
+In our next tutorial we will make a Spring Boot RESTful API application which we will connect with a PostgresQL database.<br />
+[Example of a React frontend and a Spring Boot RESTful API JPA PostgreSQL application](https://github.com/codebean-university/react-spring-boot-restful-api-jpa-postgresql)
