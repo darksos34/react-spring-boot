@@ -265,7 +265,7 @@ Greetings from CodeBean!
 ```
 <br />
 
-### Fetch data from Spring Boot backend in the React frontend
+### Fetch data from the Spring Boot backend in the React frontend
 
 We're almost there. We will now fetch the data from the backend to show in the frontend.<br />
 Open your ```/frontend/src``` folder. Add a folder named ```components```.<br />
@@ -273,3 +273,31 @@ In the ```components``` folder, add a file named ```Greet.js```<br />
 
 *According the React best practices, the components folder will contain all files which act as a component.*<br />
 *According the React best practices, the component names will start with a capital letter.*<br />
+
+```jsx
+import React, { useState, useEffect } from 'react';
+
+const Greet = () => {
+  const [greet, setGreet] = useState("");
+
+  async function fetchData() {
+    fetch('/api/greet')
+      .then(res => res.text())
+      .then(greet => {
+        setGreet(greet);
+    });
+  }
+  
+  useEffect(() => {
+    fetchData()
+  }, []);
+  
+  return (
+  <div>
+    <p>{greet}</p>
+  </div>
+  )
+}
+
+export default Greet;
+```
