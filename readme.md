@@ -349,3 +349,7 @@ function App() {
 
 export default App;
 ```
+
+Your **React** frontend should now display the text from your backend API.
+
+![React show API text](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/react-shows-api-text.JPG)
