@@ -304,7 +304,7 @@ const Greet = () => {
   
   return (
   <div>
-    <p>{greet}</p>
+    <h4>{greet}</h4>
   </div>
   )
 }
@@ -331,7 +331,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <h4><Greet /></h4>
+        <Greet />
         <a
           className="App-link"
           href="https://reactjs.org"
