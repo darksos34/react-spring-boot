@@ -256,11 +256,12 @@ Your ```frontend/package.json``` file should now look something like this:
 To learn more about proxying API requests, see Create React App's [documentation](https://create-react-app.dev/docs/proxying-api-requests-in-development/#docsNav).<br />
 <br />
 Let's test if we are now able to access the data from the frontend also.<br />
-First, restart your frontend. To stop the current session, type CTRL + C in your IDE terminal window.<br />
+
+First, restart your frontend. *To stop the current session, type CTRL + C in your IDE terminal window.*<br />
 Once the frontend is restarted, open a new terminal window and type following command (shown with its output):
 ```console
 > curl http://localhost:3000/api/greet
 Greetings from CodeBean!
 ```
-
+<br />
 ### Fetch data from Spring Boot backend in the React frontend
