@@ -293,15 +293,13 @@ const Greet = () => {
   const [greet, setGreet] = useState("");
 
   async function fetchData() {
-    fetch('/api/greet')
-      .then(res => res.text())
-      .then(greet => {
-        setGreet(greet);
-    });
+    let res = await fetch('/api/greet');
+    let greet = await res.text()
+    setGreet(greet);
   }
   
   useEffect(() => {
-    fetchData()
+    fetchData();
   }, []);
   
   return (
