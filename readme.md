@@ -1,7 +1,7 @@
 # React and Spring Boot First Setup
 
 *Created on: 11-04-2019*<br />
-*Last updated on: 12-04-2019*
+*Last updated on: 13-04-2019*
 
 **Contributors:**<br />
 Jeffrey Spaan (Full Stack Developer @ CodeBean)<br />
@@ -257,9 +257,10 @@ To learn more about proxying API requests, see Create React App's [documentation
 <br />
 Let's test if we are now able to access the data from the frontend also.<br />
 First, restart your frontend. To stop the current session, type CTRL + C in your terminal window.<br />
-Execute the command ```npm start``` <br />
-Once the frontend is started, open a new terminal window and type following command (shown with its output):
+Once the frontend is restarted, open a new terminal window and type following command (shown with its output):
 ```console
 > curl http://localhost:3000/api/hello
 Greetings from CodeBean!
 ```
+
+### Fetch data from Spring Boot backend in the React frontend
