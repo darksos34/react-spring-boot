@@ -353,3 +353,13 @@ export default App;
 Your **React** frontend should now display the text from your backend API.
 
 ![React show API text](https://raw.githubusercontent.com/codebean-university/react-spring-boot/master/images/react-shows-api-text.JPG)
+
+## Congratulations!
+Your React frontend is now connected with your Spring Boot backend which enables your application to fetch and write data from/to your server.
+
+### Upcoming tutorials
+In the upcoming tutorials we will explore the possibility to run the full application on just one (assigned) port, how to make a fully operational RESTful application including the database connection, security implementation and settings and many more topics.
+
+Give this tutorial a Star: <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star codebean-university/react-spring-boot" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:254914787,&quot;originating_url&quot;:&quot;https://github.com/codebean-university/react-spring-boot&quot;,&quot;user_id&quot;:63418838}}" data-hydro-click-hmac="3f6f6a8e6c82d1b7adb2980a47f4bec7ef81111961780575a6a7d1cefd71036a" data-ga-click="Repository, click star button, action:files#disambiguate; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+        Star
+</button>
