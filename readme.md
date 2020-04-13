@@ -276,11 +276,13 @@ In the ```components``` folder, add a file named ```Greet.js```<br />
 <br />
 
 Your ```/src``` folder structure will now look like this:
-    .
-    ├─ ...
-    ├─ components
-    │   └─ Greet.js
-    └─ ...
+```
+.
+├─ ...
+├─ components
+│   └─ Greet.js
+└─ ...
+```
 
 Add the following code to your ```Greet.js``` file.<br />
 
