@@ -204,10 +204,10 @@ It should look something like this:
 ## View REST Services from Spring Boot in the React frontend
 
 Our next task is to show the API data from the backend *(server-side)* in the frontend *(client-side)*.<br />
-The backend is running at port **8080** ```http://localhost:8080```<br />
-The frontend is running at port **3000** ```http://localhost:3000```<br />
+The backend is running on port **8080** ```http://localhost:8080```<br />
+The frontend is running on port **3000** ```http://localhost:3000```<br />
 <br />
-Both ports are now running alongside eachother without any interconnectivity. To allow read and write access from the frontend port to the backend port, we require to setup a proxy which allows data transfer.<br />
+Both ports are now running alongside eachother without any interconnectivity. To allow read and write access from the frontend port to the backend port, we need to setup a proxy which allows data transfer.<br />
 
 This is solved by adding a ```proxy``` field to your ```frontend/package.json``` file which allows port ```3000``` to transfer data from/to port ```8080```.<br />
 ```json
@@ -255,8 +255,10 @@ Your ```frontend/package.json``` file should now look something like this:
 ```
 To learn more about proxying API requests, see Create React App's [documentation](https://create-react-app.dev/docs/proxying-api-requests-in-development/#docsNav).<br />
 <br />
-Let's test if we are now able to access the data from the frontend also.
-Open a new terminal window and type following command (shown with its output):
+Let's test if we are now able to access the data from the frontend also.<br />
+First, restart your frontend. To stop the current session, type CTRL + C in your terminal window.<br />
+Execute the command ```npm start``` <br />
+Once the frontend is started, open a new terminal window and type following command (shown with its output):
 ```console
 > curl http://localhost:3000/api/hello
 Greetings from CodeBean!
