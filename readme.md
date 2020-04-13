@@ -362,5 +362,4 @@ Follow CodeBean University on GitHub and get updated with new interesting tutori
 
 ### Next tutorial
 
-In our next tutorial we will make a Spring Boot RESTful API application which we will connect with a PostgresQL database.<br />
-[Example of a React frontend and a Spring Boot RESTful API JPA PostgreSQL application](https://github.com/codebean-university/react-spring-boot-restful-api-jpa-postgresql)
+In our [next tutorial](https://github.com/codebean-university/react-spring-boot-restful-api-jpa-postgresql) we will make a Spring Boot RESTful API application which we will connect with a PostgresQL database.
