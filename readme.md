@@ -264,4 +264,13 @@ Once the frontend is restarted, open a new terminal window and type following co
 Greetings from CodeBean!
 ```
 <br />
+
 ### Fetch data from Spring Boot backend in the React frontend
+
+We're almost there. We will now fetch the data from the backend to show in the frontend.<br />
+Open your ```/frontend/src``` folder. Add a folder named ```components```.<br />
+In the ```components``` folder, add a file named ```Greet.js```<br />
+<br />
+
+*According the React best practices, the components folder will contain all files which act as a component.*<br />
+*According the React best practices, the component names will start with a capital letter.*<br />
