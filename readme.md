@@ -103,9 +103,9 @@ The following listing shows the ```POM.xml``` file that is created when you choo
 
 ### Spring Boot Controller
 Let's add a service to make the application output some data.<br />
-To do so, add a controller named: ```HelloController.java```<br />
+To do so, add a controller named: ```GreetController.java```<br />
 
-Save the Controller in ```src/main/java/nl/codebean/reactspringboot/HelloController.java```<br />
+Save the Controller in ```src/main/java/nl/codebean/reactspringboot/GreetController.java```<br />
 
 ```java
 package nl.codebean.reactspringboot;
@@ -114,10 +114,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class GreetController {
 
-  @RequestMapping("/api/hello")
-  public String hello() {
+  @RequestMapping("/api/greet")
+  public String greet() {
     return "Greetings from CodeBean!";
   }
 }
@@ -126,7 +126,7 @@ public class HelloController {
 ```@RestController```: This is a <strong>Spring Boot</strong> annotation which marks the class as a Controller;
 <br />
 
-```@RequestMapping```: This is a <strong>Spring Boot</strong> annotation which maps ```"/api/hello"``` to the ```hello()``` method;
+```@RequestMapping```: This is a <strong>Spring Boot</strong> annotation which maps ```"/api/greet"``` to the ```greet()``` method;
 When invoked from a browser or by using curl on the command line, the method returns text only. That is because ```@RestController``` combines ```@Controller``` and ```@ResponseBody```, two annotations that results in web requests returning data rather than a view.<br />
 <br />
 Now let's run the application in the terminal.<br />
@@ -152,7 +152,7 @@ To start the application, open the command terminal and execute following task (
 Once the application is started, let's run the service (in a separate command terminal).
 Execute the following task (shown with its output):<br />
 ```console
-> curl http://localhost:8080/api/hello
+> curl http://localhost:8080/api/greet
 Greetings from CodeBean!
 ```
 
@@ -256,10 +256,10 @@ Your ```frontend/package.json``` file should now look something like this:
 To learn more about proxying API requests, see Create React App's [documentation](https://create-react-app.dev/docs/proxying-api-requests-in-development/#docsNav).<br />
 <br />
 Let's test if we are now able to access the data from the frontend also.<br />
-First, restart your frontend. To stop the current session, type CTRL + C in your terminal window.<br />
+First, restart your frontend. To stop the current session, type CTRL + C in your IDE terminal window.<br />
 Once the frontend is restarted, open a new terminal window and type following command (shown with its output):
 ```console
-> curl http://localhost:3000/api/hello
+> curl http://localhost:3000/api/greet
 Greetings from CodeBean!
 ```
 
