@@ -1,7 +1,7 @@
 # React and Spring Boot First Setup
 
 *Created on: 11-04-2020*<br />
-*Last updated on: 29-06-2021*
+*Last updated on: 10-09-2021* by Jordy Coder
 
 **Contributors:**<br />
 Jeffrey Spaan (Full Stack Developer @ CodeBean)<br />
