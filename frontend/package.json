@@ -16,6 +16,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "4.0.2",
     "serialize-javascript": "^6.0.0",
+    "set-value": "^4.1.0",
     "sockjs": "^0.3.21"
   },
   "scripts": {
