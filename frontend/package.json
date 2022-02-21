@@ -12,12 +12,13 @@
     "node-notifier": "^10.0.0",
     "object-path": "^0.11.6",
     "react": "^16.13.1",
-    "react-dev-utils": "^11.0.4",
+    "react-dev-utils": "^12.0.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "4.0.2",
+    "react-scripts": "^5.0.0",
     "serialize-javascript": "^6.0.0",
     "set-value": "^4.1.0",
-    "sockjs": "^0.3.21"
+    "sockjs": "^0.3.21",
+    "url-parse": "^1.5.9"
   },
   "scripts": {
     "start": "react-scripts start",
