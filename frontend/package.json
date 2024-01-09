@@ -15,7 +15,7 @@
     "react-dev-utils": "^12.0.0",
     "react-dom": "^16.13.1",
     "react-scripts": "^5.0.0",
-    "serialize-javascript": "^6.0.0",
+    "serialize-javascript": "^6.0.2",
     "set-value": "^4.1.0",
     "sockjs": "^0.3.21",
     "url-parse": "^1.5.9"
