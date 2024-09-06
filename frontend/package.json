@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "^7.15.5",
-    "@testing-library/jest-dom": "^5.14.1",
+    "@babel/core": "^7.23.2",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "babel-core": "^6.26.3",
